@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">NxtBazaar</string>
+
+    <!-- for splash screen -->
+    <string name="str_welcome">Welcome</string>
+    <!-- for CatTypeFragmentDrawer -->
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <!-- for content_home -->
+    <string name="view_all">View All</string>
+    <string name="my_monthly_basket">My Monthly Basket</string>
+    <string name="last_tran_you_saved">Last Transaction You Saved</string>
+    <string name="new_products">New 30 Products Added</string>
+    <!-- for action menu_home -->
+    <string name="action_userInfo">User Info</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_contact_us">Contact Us</string>
+    <string name="action_wishlist">Wishlist</string>
+    <string name="action_faq">FAQ</string>
+    <string name="action_cart">Cart</string>
+    <string name="action_search">Search</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- for aync task -->
+    <string name="async_task_error">Request Cancelled</string>
+    <string name="async_task_no_internet">No Internet Connection</string>
+    <string name="async_task_request">Request status code is </string>
+
+    <!-- for products view -->
+    <string name="totalValue">Total \u20B9</string>
+    <string name="totalSavings">Savings \u20B9</string>
+    <string name="rupees">\u20B9</string>
+
+    <!-- for order overview activity -->
+    <string name="you_have_total">You Have Total</string>
+    <string name="items_in_cart">Items in your Cart</string>
+    <string name="review_order">Review Order</string>
+    <string name="total">TOTAL</string>
+    <string name="colon"> : </string>
+    <string name="you_save">You Save</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="charged">Charged</string>
+    <string name="edit">Edit</string>
+    <string name="cod">Cash On Delivery</string>
+    <string name="voucher_code">Apply Voucher Code</string>
+    <string name="differ"> | </string>
+
+    <!-- for user info activity -->
+    <string name="user_name">NAME</string>
+    <string name="user_email_id">EMAIL</string>
+    <string name="user_mob_no">PHONE</string>
+    <string name="pre_fix_phone">+91</string>
+    <string name="address">ADDRESS</string>
+    <string name="area">AREA</string>
+    <string name="city">CITY</string>
+    <string name="pincode">PINCODE</string>
+    <string name="landmark">LANDMARK</string>
+
+    <string name="btn_proceed">PROCEED</string>
+    <string name="btn_save">SAVE</string>
+    <string name="primary_address">PRIMARY ADDRESS</string>
+    <string name="secondary_address">SECONDARY ADDRESS</string>
+
+    <string name="btn_detail">DETAIL</string>
+</resources>

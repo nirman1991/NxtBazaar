@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorLogoPink">#ED217C</color>
+    <color name="colorLogoBlue">#25AAE1</color>
+    <color name="colorLogoGreen">#8DC63F</color>
+
+    <color name="white">#ffffff</color>
+    <color name="lightColorLogoPink">#F7D1E2</color>
+    <color name="lightColorLogoBlue">#BEE5F6</color>
+    <color name="lightColorLogoGreen">#DEF9B7</color>
+
+    <color name="theme_primary_text_inverted">#ffffff</color>
+    <color name="theme_secondary_text_inverted">#8affffff</color>
+
+    <color name="transperent_color">#50000000</color>
+</resources>

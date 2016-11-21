@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:padding="10dp"
+    android:background="@drawable/border_pink_table">
+
+        <TextView
+            android:id="@+id/month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Month"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size"/>
+
+        <TextView
+            android:id="@+id/savings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/month"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:text="Savings:"
+            android:textSize="@dimen/text_size"/>
+
+        <TextView
+            android:id="@+id/savedValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/savings"
+            android:layout_marginLeft="5dp"
+            android:text="0"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size"/>
+
+        <Button
+            android:id="@+id/btnOrdDetails"
+            android:layout_width="80dp"
+            android:layout_height="22dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@color/colorLogoBlue"
+            android:text="DETAILS"
+            android:onClick="details"/>
+
+        <TableLayout
+            android:id="@+id/orderDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/month"
+            android:visibility="gone"
+            android:background="@drawable/border_blue_table"
+            android:padding="5dp"
+            android:layout_marginTop="15dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/odrId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="ORDERID"
+                    android:textSize="@dimen/text_size"/>
+
+                <TextView
+                    android:id="@+id/odrTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/odrId"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="TOTAL AMOUNT"
+                    android:textSize="@dimen/text_size"/>
+
+                <TextView
+                    android:id="@+id/odrDiscount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/odrTotal"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="DISCOUNT"
+                    android:textSize="@dimen/text_size"/>
+            </TableRow>
+        </TableLayout>
+
+</RelativeLayout>
